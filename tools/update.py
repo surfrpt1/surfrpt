@@ -215,7 +215,6 @@ def main():
             lines = [
                 f"#profile-title: base64:{title}",
                 "#profile-update-interval: 1",
-                "#support-url: https://github.com/surfrpt1/v2ray-configs",
             ] + [f for _, _, _, f, _ in chunk]
             write_lines(os.path.join(sub_dir, f"subscription-{i}.txt"), lines)
 
@@ -242,17 +241,6 @@ def main():
         for fn, lines in cf_by_proto.items():
             write_lines(os.path.join(bp, fn), list(dict.fromkeys(lines)))
         write_lines(os.path.join(cf_dir, "all.txt"), list(dict.fromkeys(all_cf)))
-
-        # 9. SOURCES.md
-        src_count = {}
-        for _, _, _, _, name in kept:
-            src_count[name] = src_count.get(name, 0) + 1
-        with open(os.path.join(ROOT, "SOURCES.md"), "w", encoding="utf-8") as f:
-            f.write("# Source lists (kept configs)\n\n")
-            f.write("Configs are scraped from public free-config lists and filtered to those that "
-                    "passed a live TCP connect test. Auto-updated daily by GitHub Actions.\n\n")
-            for s, c in sorted(src_count.items(), key=lambda kv: -kv[1]):
-                f.write(f"- `{s}` : {c} working configs\n")
 
         print(f"done. kept={len(kept)} cloudflare={len(all_cf)} subscriptions={len(chunks)}")
         return 0

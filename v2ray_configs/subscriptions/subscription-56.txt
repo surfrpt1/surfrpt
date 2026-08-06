@@ -1,6 +1,5 @@
 #profile-title: base64:U1VCLTU2
 #profile-update-interval: 1
-#support-url: https://github.com/surfrpt1/v2ray-configs
 trojan://ND91608427@54.93.54.137:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=informed-alpaca.rooster465.autos#%3E%3E%40configV2rayNG%3A%3ADE
 trojan://ND91608427@54.93.65.133:443?fp=chrome&sni=next-turkey.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AXX
 trojan://ND91608427@54.170.212.206:443?fp=chrome&sni=skilled-lioness.rooster465.autos#%3E%3E%40oneclickvpnkeys%3A%3AIE

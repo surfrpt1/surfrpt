@@ -1,6 +1,5 @@
 #profile-title: base64:U1VCLTU4
 #profile-update-interval: 1
-#support-url: https://github.com/surfrpt1/v2ray-configs
 vless://5ed7b151-b781-4dba-800d-e3f824f1416f@193.124.204.145:49853?security=&encryption=none&headerType=none&type=tcp#%3E%3E%40FreakConfig%3A%3AKZ
 vless://690b6997-198a-49d2-8cef-e4c70efc2288@104.24.246.247:443?encryption=none&host=mute-moon-cf52.stary1001.workers.dev&path=%2F&security=tls&sni=mute-moon-cf52.stary1001.workers.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
 vless://65d3f9b3-d289-4a8e-9c87-90bba156de30@173.245.59.35:443?encryption=none&host=ld.235231.xyz&path=%2F&security=tls&sni=ld.235231.xyz&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
