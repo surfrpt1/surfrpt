@@ -1,5 +1,11 @@
 #profile-title: base64:U1VCLTE5
 #profile-update-interval: 1
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?encryption=none&fp=chrome&host=learn00.evany.de5.net&path=/fdip&security=tls&sni=learn00.evany.de5.net&type=ws#🤖17@SHAHSERVER1
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?encryption=none&host=learn00.evany.de5.net&path=/fdip&security=tls&sni=learn00.evany.de5.net&type=ws#👁️‍🗨️92@SHAHSERVER1
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@icv2ray
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.244:8443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#→
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.58:443?encryption=none&security=tls&sni=learn00.evany.de5.net&fp=chrome&type=ws&host=learn00.evany.de5.net&path=/fdip#𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
+vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.58:443?encryption=none&security=tls&sni=learn00.evany.de5.net&type=ws&host=learn00.evany.de5.net&path=/fdip#𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
 vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.58:443?encryption=none&security=tls&sni=learn00.evany.de5.net&type=ws&host=learn00.evany.de5.net&path=/fdip=tw.william.us.ci!txt#𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
 vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.58:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@Iran_v2ray1
 vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.195.58:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@icv2ray
@@ -94,9 +100,3 @@ vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?pat
 vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&host=learn00.evany.de5.net&type=ws&sni=learn00.evany.de5.net#@v2ray_phoenix
 vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&host=learn00.evany.de5.net&type=ws&sni=learn00.evany.de5.net#✅
 vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&host=learn00.evany.de5.net&type=ws&sni=learn00.evany.de5.net#𝗝𝗼𝗶𝗻
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&host=learn00.evany.de5.net&type=ws&sni=learn00.evany.de5.net#🤴6@SHAHSERVER1
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&fp=chrome&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@Arvand_soul❤️🧑‍💻
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@Arvand_soul❤️🧑‍💻
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@EXPRESSVPN_420
-vless://29ca503d-e6b8-4509-b666-48133f450857@one-for-all.levikogjgfdd.ir:443?path=/fdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#@FarazV2ray

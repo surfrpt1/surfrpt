@@ -239,8 +239,7 @@ trojan://humanity@104.19.64.105:443?host=www.calmlunch.com&path=%2Fassignment&se
 trojan://humanity@172.67.149.60:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%3E%3E%40configV2rayNG%3A%3AFR
 trojan://humanity@188.114.97.7:443?path=%2Fassignment&security=tls&insecure=0&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%3E%3E%40configV2rayNG%3A%3AFR
 trojan://humanity@www.calmlunch.com:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com#%3E%3E%40oneclickvpnkeys%3A%3AFR
-trojan://65c56e1f-5c41-40bc-b0b5-9346772476ca@cf.130209.xyz:2053?fp=chrome&path=%2Fapi%2Fv2%2Fcheck_update&security=tls&sni=v4.ipsb.us.ci&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.25.242.132:443?fp=chrome&path=%2F%3Fed%3D2048&security=tls&sni=yks-dd9.pages.dev&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+trojan://humanity@104.26.14.137:443?fp=chrome&path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
 trojan://0b5fa773-6f37-4134-87d4-0c349742b6f6@172.67.177.105:443?sni=app-538961.user-y0o4gm.workers.dev&allowInsecure=1&type=ws&path=/cmh#🏳️
 trojan://0b5fa773-6f37-4134-87d4-0c349742b6f6@app-538961.user-y0o4gm.workers.dev:443?sni=app-538961.user-y0o4gm.workers.dev&type=ws&path=/&fp=chrome#🏳️
 trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.25.242.132:443?host=yks-dd9.pages.dev&path=/&sni=yks-dd9.pages.dev&type=ws#🏳️

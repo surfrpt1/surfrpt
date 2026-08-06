@@ -1,5 +1,16 @@
 #profile-title: base64:U1VCLTYw
 #profile-update-interval: 1
+trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&type=tcp&path=/#🏳️
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&fp=chrome&type=tcp&path=/#🇺🇸
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&path=/#🇺🇸
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&type=tcp&fp=chrome#🇺🇸
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&type=tcp&path=/#🇺🇸
+trojan://ND91608427@3.124.187.220:443?fp=chrome&sni=rapid-firefly.rooster465.autos#🇩🇪
+trojan://ND91608427@3.124.187.220:443?security=tls&sni=rapid-firefly.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=0#🇩🇪
+trojan://ND91608427@3.124.187.220:443?security=tls&sni=rapid-firefly.rooster465.autos&path=/#🇩🇪
+trojan://ND91608427@3.124.187.220:443?sni=rapid-firefly.rooster465.autos&fp=chrome&path=/#🇩🇪
+trojan://ND91608427@3.124.187.220:443?sni=rapid-firefly.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
 trojan://ND91608427@3.124.187.220:443?sni=rapid-firefly.rooster465.autos&type=tcp&fp=chrome#🇩🇪
 trojan://ND91608427@3.35.140.99:443?security=tls&sni=moved-meerkat.rooster465.autos&path=/#🏳️
 trojan://ND91608427@3.35.140.99:443?sni=moved-meerkat.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
@@ -89,14 +100,3 @@ trojan://ND91608427@44.242.235.129:443?security=tls&sni=devoted-tapir.rooster465
 trojan://ND91608427@44.242.235.129:443?sni=devoted-tapir.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇺🇸
 trojan://ND91608427@44.242.235.129:443?sni=devoted-tapir.rooster465.autos&fp=chrome&type=tcp&path=/#🇺🇸
 trojan://ND91608427@44.242.235.129:443?sni=devoted-tapir.rooster465.autos&path=/#🇺🇸
-trojan://ND91608427@44.242.235.129:443?sni=devoted-tapir.rooster465.autos&type=tcp&fp=chrome#🇺🇸
-trojan://ND91608427@44.244.3.114:443?security=tls&sni=pet-ghost.rooster465.autos&path=/#🏳️
-trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
-trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@44.246.163.102:443?security=tls&sni=fleet-bonefish.rooster465.autos&path=/#🏳️
-trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
-trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&path=/#🏳️
-trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&type=raw&fp=chrome#🏳️
-trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&fp=chrome&type=tcp&path=/#🇯🇵

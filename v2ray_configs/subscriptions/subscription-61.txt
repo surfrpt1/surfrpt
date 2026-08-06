@@ -1,5 +1,16 @@
 #profile-title: base64:U1VCLTYx
 #profile-update-interval: 1
+trojan://ND91608427@44.242.235.129:443?sni=devoted-tapir.rooster465.autos&type=tcp&fp=chrome#🇺🇸
+trojan://ND91608427@44.244.3.114:443?security=tls&sni=pet-ghost.rooster465.autos&path=/#🏳️
+trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
+trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@44.246.163.102:443?security=tls&sni=fleet-bonefish.rooster465.autos&path=/#🏳️
+trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
+trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&path=/#🏳️
+trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&type=raw&fp=chrome#🏳️
+trojan://ND91608427@44.246.163.102:443?sni=fleet-bonefish.rooster465.autos&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&fp=chrome&type=tcp&path=/#🇯🇵
 trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&path=/#🇯🇵
 trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&type=tcp&fp=chrome#🇯🇵
 trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&type=tcp&path=/#🇯🇵
@@ -89,14 +100,3 @@ trojan://ND91608427@careful-tadpole.rooster465.autos:443?sni=careful-tadpole.roo
 trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&allowInsecure=1&type=tcp#🏳️
 trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
 trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
-trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&path=/#🏳️
-trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&type=raw&fp=chrome#🏳️
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&path=/#🏳️
-trojan://ND91608427@classic-gator.rooster465.autos:443?#🏳️
-trojan://ND91608427@classic-gator.rooster465.autos:443?sni=classic-gator.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@classic-gator.rooster465.autos:443?sni=classic-gator.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
-trojan://ND91608427@classic-gator.rooster465.autos:443?sni=classic-gator.rooster465.autos&path=/#🏳️
-trojan://ND91608427@classic-gator.rooster465.autos:443?sni=classic-gator.rooster465.autos&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@clear-snail.rooster465.autos:443?sni=clear-snail.rooster465.autos&allowInsecure=1&type=tcp#🇯🇵

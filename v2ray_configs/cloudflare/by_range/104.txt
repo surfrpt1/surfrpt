@@ -1524,9 +1524,7 @@ vless://a114d067-b900-4f60-87a5-50d4d63972b8@usa.visa.com:443?security=tls&sni=P
 vless://aebe5a70-0ca3-46ce-8208-8b5bab1346ce@mybb.com:443?security=tls&sni=rAyAn-007.nAsTaRaN.DpDnS.OrG&allowInsecure=1&fp=chrome&type=ws&path=/?ed%3D2560&host=rayan-007.nastaran.dpdns.org&encryption=none#%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D8%B3%D8%B1%DB%8C%D8%B9%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D8%B4%D8%AE%D8%B5%DB%8C%20:%20https://telegraph.rayan-config.workers.dev/persian
 https://telegraph.rayan-config.workers.dev/persian
 vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@104.18.32.47:443?security=tls&sni=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&allowInsecure=1&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg&encryption=none#@Rayan_Config%203.3
-vless://2b2ed3be-36bd-486d-9d04-ebf5b4be7ae9@104.26.13.40:8880?security=none&type=ws&path=/pyip=ProxyIP.SG.CMLiussss.net&host=twilight-heart-dbd6.220-2bd.workers.dev&packetEncoding=xudp#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-vless://dd321f25-8f90-4e7c-a1fa-01883a8988a7@104.16.117.43:443?security=tls&type=ws&path=/pyip=proxyip.cmliussss.net&host=soucuovls.pages.dev&packetEncoding=xudp&sni=soucuovls.pages.dev&fp=chrome#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
-trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.25.242.132:443?fp=chrome&path=%2F%3Fed%3D2048&security=tls&sni=yks-dd9.pages.dev&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+trojan://humanity@104.26.14.137:443?fp=chrome&path=%2Fassignment&security=tls&sni=www.ignitelimit.com&type=ws#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
 ss://Y2hhY2hhMjAtcG9seTEzMDU6d3d3LnYybm9kZXMuY29t@www.v2nodes.com:443#%5BERROR%5D%20Please%20get%20new%20subscription%20link
 trojan://0b5fa773-6f37-4134-87d4-0c349742b6f6@app-538961.user-y0o4gm.workers.dev:443?sni=app-538961.user-y0o4gm.workers.dev&type=ws&path=/&fp=chrome#🏳️
 trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.25.242.132:443?host=yks-dd9.pages.dev&path=/&sni=yks-dd9.pages.dev&type=ws#🏳️
