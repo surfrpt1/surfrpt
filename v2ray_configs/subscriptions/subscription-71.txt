@@ -1,9 +1,5 @@
 #profile-title: base64:U1VCLTcx
 #profile-update-interval: 1
-vless://10be524f-e1dc-4d1c-a256-17df1399a739@104.17.121.253:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net&allowInsecure=0&sni=loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk#🌐سرور
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?path=%2Frdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#🌐سرور
-vless://4d10c997-4781-4cd9-82c3-15453523e12c@172.66.44.97:443?path=%2Fsg-melbi&security=tls&encryption=none&insecure=0&host=support.zoom.us.yxls.eu.cc&ech=&type=ws&allowInsecure=0&sni=support.zoom.us.yxls.eu.cc#🌐سرور
-vless://19804f6b-3661-4eca-b294-ba37196dab5b@129.6.29.255:443?path=%2Fid-tksi&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=graph.instagram.com.cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=graph.instagram.com.cyylr.eu.cc#🌐سرور
 trojan://humanity@45.130.125.126:443/?type=ws&host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com#🌐سرور
 trojan://Mitivpn@151.101.56.6:443?path=%2Fde&security=tls&alpn=http%2F1.1&insecure=0&host=3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🌐سرور
 vless://7e544a9d-7667-413b-bbb0-b3bb1aac6d77@104.16.72.101:443?path=%2Frsedgws&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&fp=chrome&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🌐سرور
@@ -27,6 +23,7 @@ trojan://humanity@162.159.38.119:443?path=%2Fassignment&security=tls&host=www.cr
 vless://29ca503d-e6b8-4509-b666-48133f450857@188.114.98.0:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#🌐سرور
 vless://fba7da11-1d4e-4c74-9a90-fe290eb9539d@new.frizan.ir:2019?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🌐سرور
 vless://68b48eeb-5770-4eb3-9b77-deeb77a41ccf@104.17.147.22:80?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=varzesh3.varzesh.dpdns.org&fp=random&type=ws&sni=varzesh3.varzesh.dpdns.org#🌐سرور
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?path=%2Fhttp&security=none&encryption=none&type=ws#🌐سرور
 vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.17.105.91:80?security=none&type=ws&host=us3.rtacg.com&path=/#🌐سرور
 vless://5b9503aa-119b-4288-aa4f-0bbee2b4d5af@188.114.97.6:443?path=%2F%3Fed&security=tls&encryption=none&insecure=0&host=t02.tzteam.online&fp=firefox&type=ws&allowInsecure=0&sni=t02.tzteam.online#🌐سرور
 vless://telegram-id-ArV2ray@25.129.197.233:2052?mode=auto&path=%2F-Arfilter%40Arfilter-TEL--%40Arfilter-TEL--%40ArFilter-TEL--%40Arfilter-JOIN-%40Arfilter-TEL--%40Arfilter-JOIN-%40Arfilter-TEL-%40Arfilter-TEL--%40Arfilter-JOIN-%40Arfilter-TEL--%40Arfilter%3Fed%3D80&security=none&encryption=none&host=cdn-alman5.arfilter2.blog&type=xhttp#🌐سرور
@@ -90,7 +87,6 @@ vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.17.121.71:443?mode=stream-one&p
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#🌐سرور
 vless://3e0cbd37-467f-4988-a72f-b37cd4a97959@nodedivice.chickenkiller.com:443?security=reality&encryption=none&pbk=IhbpvWBZmJEzDs4eI2zoFmL_a-1J_7Z7Sepyrn7-xF8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=nodefulcrum.mooo.com&sid=6547735997055a35#🌐سرور
 vless://85329505-90c2-43d1-9c4a-689b1a0be884@45.131.212.22:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org#🌐سرور
-ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@62.76.234.75:10901#🌐سرور
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206VkREK3ZERmRxOGFkNFloMmY5aEI3Y0VheVdJS21aa1RhVXh4QzJ1Qy9jOD06d0UwQ0ErcUZ5NkhwWEVZRGNrRWcxU2xocUwzN0JQdEphQ1BvdGt6WWpFMD0@91.107.157.137:56352#🌐سرور
 vless://e41f1455-24f5-4d28-9588-a2cba790171c@91.107.157.137:40124?security=none&encryption=none&headerType=none&type=tcp#🌐سرور
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&host=de.xn--q9jyb4c.online&fp=chrome&type=xhttp&allowInsecure=0&sni=de.xn--q9jyb4c.online#🌐سرور
@@ -100,3 +96,7 @@ vless://425ef0c5-4e79-4aa5-bf9e-b847a0f73601@chatgpt.com:443?path=%2Fvless-tls&s
 vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.66.47.69:2053?path=%2Ffast&security=tls&encryption=none&insecure=1&host=hio-awx.pages.dev&type=ws&allowInsecure=1&sni=hio-awx.pages.dev#🌐سرور
 vless://9150748b-fa2b-4ef1-a7f1-7c4a76e2dc0b@64.188.62.138:40443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deepl.com&security=reality&pbk=U1ABwLTij71fW63nwMukZBezSQKADiBRuKCATiNUxUw&sid=27bb#🌐سرور
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🌐سرور
+vless://6c154ff1-10dd-4c15-9865-a7684b7d81ec@185.146.173.58:8080?type=httpupgrade&path=/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/&host=http.digicyber.click.&security=none#🌐سرور
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#🌐سرور
+vless://46aeacfa-0b4a-4e35-9a0f-6db76e92d4c6@earth.lukelucky.com:2086?mode=auto&path=%2F&security=none&encryption=none&host=cC.cafearen.ir&type=xhttp#🌐سرور
+vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🌐سرور

@@ -1,9 +1,5 @@
 #profile-title: base64:U1VCLTYz
 #profile-update-interval: 1
-trojan://ND91608427@large-baboon.rooster465.autos:443?sni=large-baboon.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇩🇪
-trojan://ND91608427@large-baboon.rooster465.autos:443?sni=large-baboon.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
-trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&allowInsecure=1&type=tcp#🇯🇵
-trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇯🇵
 trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&fp=chrome&type=tcp&path=/#🇯🇵
 trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&path=/#🇯🇵
 trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&type=tcp&fp=chrome#🇯🇵
@@ -100,3 +96,7 @@ trojan://ND91608427@smart-pup.rooster465.autos:443?sni=smart-pup.rooster465.auto
 trojan://ND91608427@smart-pup.rooster465.autos:443?sni=smart-pup.rooster465.autos&type=tcp&fp=chrome#🏳️
 trojan://ND91608427@social-mutt.rooster465.autos:443?sni=social-mutt.rooster465.autos&allowInsecure=1&type=tcp#🏳️
 trojan://ND91608427@social-mutt.rooster465.autos:443?sni=social-mutt.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@social-mutt.rooster465.autos:443?sni=social-mutt.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
+trojan://ND91608427@social-mutt.rooster465.autos:443?sni=social-mutt.rooster465.autos&path=/#🏳️
+trojan://ND91608427@social-mutt.rooster465.autos:443?sni=social-mutt.rooster465.autos&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@star-kiwi.rooster465.autos:443?#🇫🇷

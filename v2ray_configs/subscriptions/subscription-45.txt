@@ -1,7 +1,5 @@
 #profile-title: base64:U1VCLTQ1
 #profile-update-interval: 1
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.12.210:443?encryption=none&fp=chrome&host=t1s1.rittbo.kdns.fr&path=/&security=tls&sni=t1s1.rittbo.kdns.fr&type=ws#🇨🇦
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.14.252:443?allowInsecure=0&sni=t1s1.rittbo.kdns.fr&type=ws&host=t1s1.rittbo.kdns.fr&path=/fp=chrome&security=tls#🇸🇬
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.24.39:443?encryption=none&security=tls&sni=t1s1.rittbo.kdns.fr&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query&type=ws&host=t1s1.rittbo.kdns.fr&path=/#t.me/ConfigFori
 https://dns.alidns.com/dns-query&type=ws&host=t1s1.rittbo.kdns.fr&path=/#t.me/ConfigFori
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.3.141:443?allowInsecure=0&sni=t1s1.rittbo.kdns.fr&type=ws&host=t1s1.rittbo.kdns.fr&path=/fp=chrome&security=tls#🇨🇦
@@ -100,3 +98,5 @@ vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=&encry
 vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#@meliproxyy
 vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#@tootffarangi🍓-6
 vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#@vmess_ir
+vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#Tel-@ProxyMtAlpha🫣
+vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@167.233.47.127:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#V2ray_Alpha🐯

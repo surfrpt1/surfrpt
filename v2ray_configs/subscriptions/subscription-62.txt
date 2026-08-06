@@ -1,9 +1,5 @@
 #profile-title: base64:U1VCLTYy
 #profile-update-interval: 1
-trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&path=/#🏳️
-trojan://ND91608427@casual-bee.rooster465.autos:443?sni=casual-bee.rooster465.autos&type=raw&fp=chrome#🏳️
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
 trojan://ND91608427@chief-bluegill.rooster465.autos:443?sni=chief-bluegill.rooster465.autos&path=/#🏳️
 trojan://ND91608427@classic-gator.rooster465.autos:443?#🏳️
 trojan://ND91608427@classic-gator.rooster465.autos:443?sni=classic-gator.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🏳️
@@ -100,3 +96,7 @@ trojan://ND91608427@intimate-moray.rooster465.autos:443?sni=intimate-moray.roost
 trojan://ND91608427@large-baboon.rooster465.autos:443?#🇩🇪
 trojan://ND91608427@large-baboon.rooster465.autos:443?security=tls&sni=large-baboon.rooster465.autos&path=/#🇩🇪
 trojan://ND91608427@large-baboon.rooster465.autos:443?security=tls&sni=large-baboon.rooster465.autos&type=tcp&path=/#🇩🇪
+trojan://ND91608427@large-baboon.rooster465.autos:443?sni=large-baboon.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇩🇪
+trojan://ND91608427@large-baboon.rooster465.autos:443?sni=large-baboon.rooster465.autos&fp=chrome&type=tcp&path=/#🇩🇪
+trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&allowInsecure=1&type=tcp#🇯🇵
+trojan://ND91608427@learning-leopard.rooster465.autos:443?sni=learning-leopard.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#🇯🇵

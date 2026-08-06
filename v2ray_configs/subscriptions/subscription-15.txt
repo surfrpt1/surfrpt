@@ -1,8 +1,5 @@
 #profile-title: base64:U1VCLTE1
 #profile-update-interval: 1
-trojan://humanity@104.16.174.36:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#@Filtershekan_channel
-trojan://humanity@104.16.174.36:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#چنل
-trojan://humanity@104.16.71.213:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@EXPRESSVPN_420
 trojan://humanity@104.16.72.2:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@meliproxyy
 trojan://humanity@104.18.152.140:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#@Filtershekan_channel
 trojan://humanity@104.18.152.219:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#@Filtershekan_channel
@@ -100,3 +97,6 @@ vless://00d1eaf8-14a6-4ea7-a939-e80ad114a819@afrcloud22.mmv.kr:443?encryption=no
 vless://00f08069-07c8-410f-b8f2-a531447a07e4@3x-ui-multi-production-5f14.up.railway.app:443?fp=chrome&host=3x-ui-multi-production-5f14.up.railway.app&path=/in7&security=tls&sni=3x-ui-multi-production-5f14.up.railway.app&type=ws#Finland-fi-client
 vless://0108c657-a9bd-4c99-9179-74050cf78889@193.233.255.5:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=sellflow.org#𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️-@prrofile_purple
 vless://0188427e-e55b-49f3-bd4a-1b2e34a87032@fr.fastraytel9880.ir:2087?mode=auto&path=/&security=reality&encryption=none&extra={"mode":"auto","xPaddingBytes":"100-1000"}&pbk=Te0ColQDcNHarIngKbt7eBIr1rrZLW3h7UEINhbhHxk&fp=chrome&spx=/0RBRZ8UsYE9C9FV&type=xhttp&sni=www.yahoo.com&sid=5967#MTMVPN
+vless://024e8431-13d1-426b-98b8-2f31cbd6c8fc@fr.lorzema.ir:2050?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=339d7c53d8832086#MTMVPN
+vless://024e8431-13d1-426b-98b8-2f31cbd6c8fc@gr.lorzema.ir:2050?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=339d7c53d8832086#MTMVPN
+vless://026149af-ee7c-2044-944e-34d522fd6f7e@tmesubgift.up.railway.app:443?encryption=none&security=tls&sni=tmesubgift.up.railway.app&fp=chrome&alpn=http/1.1&insecure=0&allowInsecure=0&type=ws&host=tmesubgift.up.railway.app&path=/ws/026149af-ee7c-2044-944e-34d522fd6f7e#109

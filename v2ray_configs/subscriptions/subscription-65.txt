@@ -1,9 +1,5 @@
 #profile-title: base64:U1VCLTY1
 #profile-update-interval: 1
-trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?security=tls&sni=www.nintendogames.net&type=tcp&path=/&allow_insecure=0#🇭🇰
-trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?sni=www.nintendogames.net#🇭🇰
-trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?sni=www.nintendogames.net&fp=chrome&type=tcp&path=/#🇭🇰
-trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?sni=www.nintendogames.net&path=/#🇭🇰
 trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?sni=www.nintendogames.net&type=tcp&path=/#🇭🇰
 trojan://eb2b32c4-8844-4e79-8ec8-133a8a3aca3c@yuzhenb886.dpdns.org:443?security=tls&sni=yuzhenb886.dpdns.org&type=ws&path=/#🇺🇸
 trojan://f18d6149-e214-8554-e737-f7523c8b2eea@188.114.97.6:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#🏳️
@@ -100,3 +96,7 @@ vless://2b8738de-1af5-4267-b101-c05707769ed4@fans.liverpool.qzz.io:2083?ed=2560&
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?alpn=channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn&encryption=none&flow=xtls-rprx-vision&security=tls&sni=secure.furrycdn.net&type=raw#🏳️
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=secure.furrycdn.net&type=raw#🏳️
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=secure.furrycdn.net&type=raw#🏳️
+vless://2cca8201-c93e-40eb-bd8a-fea4170c169e@185.126.93.15:443?encryption=none&extra=null&fp=chrome&mode=auto&path=/api/v1/&security=tls&sni=wx-deu-022.cdnphotos.org&type=xhttp#🏳️
+vless://2cca8201-c93e-40eb-bd8a-fea4170c169e@185.126.93.15:443?encryption=none&extra=null&fp=edge&host=wx-deu-022.cdnphotos.org&mode=auto&path=/api/v1/&security=tls&sni=wx-deu-022.cdnphotos.org&type=xhttp#🏳️
+vless://2cca8201-c93e-40eb-bd8a-fea4170c169e@185.126.93.15:443?encryption=none&extra=null&fp=firefox&host=wx-deu-022.cdnphotos.org&mode=auto&path=/api/v1/&security=tls&sni=wx-deu-022.cdnphotos.org&type=xhttp#🏳️
+vless://2cca8201-c93e-40eb-bd8a-fea4170c169e@185.126.93.15:443?encryption=none&extra=null&fp=ios&host=wx-deu-022.cdnphotos.org&mode=auto&path=/api/v1/&security=tls&sni=wx-deu-022.cdnphotos.org&type=xhttp#🏳️

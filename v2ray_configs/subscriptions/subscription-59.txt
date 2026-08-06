@@ -1,9 +1,5 @@
 #profile-title: base64:U1VCLTU5
 #profile-update-interval: 1
-trojan://0b5fa773-6f37-4134-87d4-0c349742b6f6@172.67.177.105:443?sni=app-538961.user-y0o4gm.workers.dev&allowInsecure=1&type=ws&path=/cmh#🏳️
-trojan://0b5fa773-6f37-4134-87d4-0c349742b6f6@app-538961.user-y0o4gm.workers.dev:443?sni=app-538961.user-y0o4gm.workers.dev&type=ws&path=/&fp=chrome#🏳️
-trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&path=/#🇺🇸
-trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&type=tcp&headerType=none&path=/#🇺🇸
 trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&type=tcp&headerType=none&path=/&allow_insecure=0#🇺🇸
 trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&type=tcp&path=/#🇺🇸
 trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?sni=163.245.196.68.sslip.io&fp=chrome&type=tcp&path=/#🇺🇸
@@ -100,3 +96,7 @@ trojan://ND91608427@3.112.238.99:443?sni=stunning-mite.rooster465.autos&type=raw
 trojan://ND91608427@3.112.238.99:443?sni=stunning-mite.rooster465.autos&type=tcp&fp=chrome#🇯🇵
 trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&fp=chrome&type=tcp&path=/#🏳️
 trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&path=/#🏳️
+trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&type=tcp&fp=chrome#🏳️
+trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&type=tcp&path=/#🏳️
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&fp=chrome&type=tcp&path=/#🇺🇸
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&path=/#🇺🇸
