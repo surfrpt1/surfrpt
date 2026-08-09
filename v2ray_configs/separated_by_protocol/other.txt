@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt
+https://t.me/VIPV2rayNGNP
 https://xship.2fa.cat@starlink-ft.251313.xyz:443/?insecure=1&sni=www.cloudflare.com#US🇺🇸
 https://t.me/AstroVPN_official
 socks5://111:111@47.243.173.50:11211/#🇭🇰
@@ -8,16 +9,15 @@ socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk=@lu-lux.pvda
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@fi-esp.pvdata.host:1080#@KAFING_2
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@lu-lux.pvdata.host:1080?note=@FreeOnlineVPN#🇱🇺
 socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@pl-tor.pvdata.host:1080#@KAFING_2
-socks://MTExOjExMQ@47.76.229.132:11310#🔰
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#@Daily_Configs
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#@FarazV2ray
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#Channel
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#✅
-socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ee-tal.pvdata.host:1080#@FarazV2ray
+socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#🇨🇭138295
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@im-bal.pvdata.host:1080#@FarazV2ray
-socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@no-osl.pvdata.host:1080#@FarazV2ray
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@tr-ist.pvdata.host:1080#@FarazV2ray
 socks://UjM4WWNqMWJuR1F0RldQN2NMVU1neUdDOlRlbDZAU29vblRlYW0@hu-bud.pvdata.host:1080#🇭🇺@v2rayngsupbot
+https://t.me/ConfigX2ray
 https://dns.alidns.com/dns-query&type=ws&host=vpn47.cc.cd&path=/#t.me/ConfigFori
 https://t.me/FREECONFIGSPLUS
 https://adl.adfilter.net/dns-query&type=xhttp&sni=pa.suts.info&mode=auto&path=/edu&security=tls&encryption=mlkem768x25519plus.native.0rtt.8LhKLmHAP_EeccBnbUcDjRg-S2565et63vC3aAmAP3I&extra={"xPaddingBytes":"100-1000"}&insecure=0&host=pa.suts.info&allowInsecure=0#MTMVPN
@@ -27,6 +27,7 @@ https://dns.alidns.com/dns-query&type=ws&host=l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art
 https://t.me/FREE_VPN02
 https://dns.alidns.com/dns-query&type=ws&host=t1s1.rittbo.kdns.fr&path=/#🇸🇬
 https://dns.alidns.com/dns-query&type=ws&host=t1s1.rittbo.kdns.fr&path=/#t.me/ConfigFori
+https://dns.alidns.com/dns-query&type=ws&host=t1s1.rittbo.kdns.fr&path=/#🔵@chillguy_vpn
 https://telegram.me/yebekhe
 https://github.com/itsyebekhe/PSG
 https://github.com/MatsuriDayo/plugins/releases?q=xray
@@ -60,9 +61,8 @@ http://telegraph.rayan-config.workers.dev/translate
 https://telegraph.rayan.dpdns.org/translate
 https://telegraph.rayan-config.workers.dev/translate
 https://telegraph.rayan-config.workers.dev/persian
-https://t.me/QiangLieTuiJian&host=broken-star-c5ae.446.workers.dev&packetEncoding=xudp&encryption=none#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
+https://t.me/QiangLieTuiJian&host=late-mountain-6801.355.workers.dev&packetEncoding=xudp&encryption=none#%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9
 https://t.me/An0nymou3Bot
 https://github.com/4n0nymou3
-socks://Og%3D%3D@144.91.111.48:1088#🇫🇷
-socks://Og%3D%3D@69.55.49.177:38182#🇺🇸
-https://t.me/QiangLieTuiJian#🇺🇸
+socks://Og%3D%3D@173.212.252.150:1080#🇫🇷
+socks://Og%3D%3D@43.164.3.124:1080#🇹🇭
