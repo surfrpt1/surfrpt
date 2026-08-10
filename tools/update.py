@@ -9,6 +9,7 @@ import re
 import socket
 import sys
 import tempfile
+import time
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -126,22 +127,43 @@ def resolve(host):
 
 
 def probe(ip_port):
+    """Return (ip,port) -> TCP connect RTT in ms, or None if unreachable."""
     ip, port = ip_port
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(6)
-    try:
-        s.connect((ip, int(port)))
-        return (ip, port), True
-    except Exception:
-        return (ip, port), False
-    finally:
-        s.close()
+
+    def attempt():
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.settimeout(6)
+        try:
+            t0 = time.time()
+            s.connect((ip, int(port)))
+            return round((time.time() - t0) * 1000)
+        except Exception:
+            return None
+        finally:
+            s.close()
+
+    ms = attempt()
+    if ms is None:
+        return (ip, port), None
+    if ms < 500:
+        ms2 = attempt()
+        if ms2 is not None and ms2 < ms:
+            ms = ms2
+    return (ip, port), ms
 
 
 def write_lines(path, lines):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
+
+
+def _is_cf(cfg, resolved):
+    host = cfg[1]
+    ip = resolved.get(host, [None])[0]
+    if not ip:
+        return False
+    return any(ipaddress.ip_address(ip) in n for n in CF_NETS)
 
 
 def main():
@@ -179,10 +201,13 @@ def main():
         print(f"testing {len(pairs)} endpoints ...")
         with concurrent.futures.ThreadPoolExecutor(max_workers=64) as ex:
             results = dict(ex.map(probe, list(pairs)))
-        alive = {k for k, v in results.items() if v}
-        print(f"alive: {len(alive)}/{len(pairs)}")
+        latency = {k: v for k, v in results.items() if v is not None}
+        alive = set(latency)
+        rtts = sorted(latency.values())
+        med = rtts[len(rtts) // 2] if rtts else 0
+        print(f"alive: {len(alive)}/{len(pairs)} median_rtt={med}ms")
 
-        # 5. keep tested-alive, dedupe
+        # 5. keep tested-alive, dedupe, sort nearest-first
         kept, seen = [], set()
         for scheme, host, port, full, name in cfgs:
             ips = resolved.get(host, [])
@@ -192,6 +217,7 @@ def main():
                 continue
             seen.add(full)
             kept.append((scheme, host, port, full, name))
+        kept.sort(key=lambda c: latency[(resolved[c[1]][0], c[2])])
         print(f"kept configs: {len(kept)}")
 
         # 6. write separated_by_protocol
@@ -241,6 +267,19 @@ def main():
         for fn, lines in cf_by_proto.items():
             write_lines(os.path.join(bp, fn), list(dict.fromkeys(lines)))
         write_lines(os.path.join(cf_dir, "all.txt"), list(dict.fromkeys(all_cf)))
+
+        # 8.5 nearest nodes + latency map
+        nearest_dir = os.path.join(OUT, "nearest")
+        os.makedirs(nearest_dir, exist_ok=True)
+        with open(os.path.join(nearest_dir, "latency.json"), "w", encoding="utf-8") as f:
+            json.dump(
+                {f"{k[0]}:{k[1]}": v for k, v in sorted(latency.items(), key=lambda kv: kv[1])},
+                f, indent=1,
+            )
+        nearest = [c[3] for c in kept[:100]]
+        write_lines(os.path.join(nearest_dir, "all.txt"), nearest)
+        cf_nearest = [c[3] for c in kept if _is_cf(c, resolved)][:100]
+        write_lines(os.path.join(nearest_dir, "cloudflare.txt"), cf_nearest)
 
         print(f"done. kept={len(kept)} cloudflare={len(all_cf)} subscriptions={len(chunks)}")
         return 0
