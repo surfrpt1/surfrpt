@@ -2,6 +2,8 @@
 
 const NODES_URL =
   "https://raw.githubusercontent.com/surfrpt1/surfrpt/main/v2ray_configs/nearest/nodes.json";
+const SUB_URL =
+  "https://raw.githubusercontent.com/surfrpt1/surfrpt/main/v2ray_configs/subscriptions/subscription-1.txt";
 
 const state = {
   nodes: [],
@@ -13,6 +15,8 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
 function haversineKm(a, b) {
   const R = 6371;
@@ -71,6 +75,16 @@ function locLabel() {
   return `${acc}(${state.loc.lat.toFixed(4)}, ${state.loc.lon.toFixed(4)})`;
 }
 
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+function srLink(n) {
+  return "shadowrocket://add/" + encodeURIComponent(n.config);
+}
+
 function render() {
   const tbody = $("tbody");
   const sorted = filtered().slice(0, state.topN);
@@ -82,7 +96,7 @@ function render() {
   if (state.loc) {
     locInfo.textContent = `Ranking from device location ${locLabel()}. Showing ${sorted.length} of ${filtered().length} matched nodes.`;
   } else {
-    locInfo.textContent = "No device location — showing CI latency order. Click Refresh to rank by distance.";
+    locInfo.textContent = "No device location — showing CI latency order. Tap Refresh to rank by your location.";
   }
 
   tbody.innerHTML = sorted
@@ -90,14 +104,18 @@ function render() {
       const dStr = d == null ? "—" : d < 1 ? `${(d * 1000).toFixed(0)} m` : `${d.toFixed(0)} km`;
       const loc = [n.country, n.city].filter(Boolean).join(" · ") || "—";
       const lat = n.latency == null ? "—" : `${n.latency} ms`;
-      return `<tr>
-        <td>${i + 1}</td>
-        <td class="code">${dStr}</td>
-        <td class="code">${lat}</td>
-        <td>${n.scheme}</td>
-        <td>${loc}</td>
-        <td class="code">${n.host}:${n.port}</td>
-        <td><button data-copy="${i}">copy</button></td>
+      const actions = isIOS
+        ? `<a class="btn sr" href="${srLink(n)}">Open in Shadowrocket</a>
+           <button class="btn" data-copy="${i}">Copy</button>`
+        : `<button class="btn" data-copy="${i}">Copy</button>`;
+      return `<tr data-idx="${i}">
+        <td data-label="#">${i + 1}</td>
+        <td data-label="Distance" class="code">${dStr}</td>
+        <td data-label="CI latency" class="code">${lat}</td>
+        <td data-label="Protocol">${escapeHtml(n.scheme)}</td>
+        <td data-label="Location">${escapeHtml(loc)}</td>
+        <td data-label="Host" class="code">${escapeHtml(n.host)}:${escapeHtml(n.port)}</td>
+        <td data-label="Actions" class="actions">${actions}</td>
       </tr>`;
     })
     .join("");
@@ -154,6 +172,48 @@ function topList() {
   return filtered().slice(0, state.topN).map(({ n }) => n.config).join("\n");
 }
 
+function b64(s) {
+  try {
+    return btoa(s);
+  } catch (_) {
+    const bytes = new TextEncoder().encode(s);
+    let bin = "";
+    bytes.forEach((b) => (bin += String.fromCharCode(b)));
+    return btoa(bin);
+  }
+}
+
+async function shareText(title, text) {
+  if (navigator.share) {
+    try {
+      await navigator.share({ title, text });
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+  return false;
+}
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch (_) {
+    const area = $("export-area");
+    area.value = text;
+    $("export").classList.remove("hidden");
+    area.select();
+    return false;
+  }
+}
+
+async function flash(btn, msg) {
+  const old = btn.textContent;
+  btn.textContent = msg;
+  setTimeout(() => (btn.textContent = old), 1200);
+}
+
 $("refresh").addEventListener("click", refresh);
 $("use-location").addEventListener("click", async () => {
   const loc = await getLocation();
@@ -162,8 +222,20 @@ $("use-location").addEventListener("click", async () => {
     render();
   }
 });
+
+$("share-top").addEventListener("click", async () => {
+  const list = topList();
+  if (!list) return;
+  const ok = await shareText("surfrpt nearest nodes", list);
+  if (!ok) {
+    const copied = await copyText(list);
+    $("share-top").textContent = copied ? "✓ Copied (no share)" : "Open export box";
+    setTimeout(() => ($("share-top").textContent = "Share top-N"), 1400);
+  }
+});
+
 $("download-sub").addEventListener("click", () => {
-  const lines = ["#profile-title: base64:" + btoa("surfrpt-nearest"), "#profile-update-interval: 1"].concat(
+  const lines = ["#profile-title: base64:" + b64("surfrpt-nearest"), "#profile-update-interval: 1"].concat(
     filtered().slice(0, state.topN).map(({ n }) => n.config)
   );
   const blob = new Blob([lines.join("\n") + "\n"], { type: "text/plain" });
@@ -173,16 +245,20 @@ $("download-sub").addEventListener("click", () => {
   a.click();
   URL.revokeObjectURL(a.href);
 });
+
+$("sr-sub").addEventListener("click", () => {
+  // sub://BASE64(url) — standard Shadowrocket subscription deep link
+  const deep = "shadowrocket://add/sub://" + b64(SUB_URL) + "#surfrpt";
+  window.location.href = deep;
+  setTimeout(() => flash($("sr-sub"), "Opened Shadowrocket?"), 300);
+});
+
 $("copy-top").addEventListener("click", async () => {
-  try {
-    await navigator.clipboard.writeText(topList());
-    $("copy-top").textContent = "✓ Copied";
-    setTimeout(() => ($("copy-top").textContent = "Copy top-N"), 1200);
-  } catch (e) {
-    const area = $("export-area");
-    area.value = topList();
-    $("export").classList.remove("hidden");
-  }
+  const list = topList();
+  if (!list) return;
+  const copied = await copyText(list);
+  $("copy-top").textContent = copied ? "✓ Copied" : "Copied to box below";
+  setTimeout(() => ($("copy-top").textContent = "Copy top-N"), 1200);
 });
 
 $("topn").addEventListener("input", (e) => {
@@ -204,15 +280,13 @@ $("search").addEventListener("input", (e) => {
 document.addEventListener("click", (e) => {
   const btn = e.target.closest("button[data-copy]");
   if (!btn) return;
-  const { n } = filtered()[+btn.dataset.copy];
+  const idx = +btn.dataset.copy;
+  const { n } = filtered()[idx];
   if (!n) return;
-  navigator.clipboard.writeText(n.config).then(
-    () => {
-      btn.textContent = "✓";
-      setTimeout(() => (btn.textContent = "copy"), 900);
-    },
-    () => {}
-  );
+  copyText(n.config).then((ok) => {
+    btn.textContent = ok ? "✓ Copied" : "In box";
+    setTimeout(() => (btn.textContent = "Copy"), 900);
+  });
 });
 
 loadNodes();
