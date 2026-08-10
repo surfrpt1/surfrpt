@@ -50,6 +50,8 @@ CF_NETS = [ipaddress.ip_network(n) for n in [
 
 SCHEME_RE = re.compile(r"(vmess|vless|trojan|ss|ssr|socks5|socks|http|https)://")
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; v2ray-configs-updater/1.0)"}
+GEO_URL = "http://ip-api.com/batch"
+GEO_FIELDS = "status,message,query,country,countryCode,regionName,city,lat,lon,isp"
 
 PROTO_FILE = {
     "vmess": "vmess.txt", "vless": "vless.txt", "trojan": "trojan.txt",
@@ -124,6 +126,36 @@ def resolve(host):
         return host, sorted({inf[4][0] for inf in infos})[:4]
     except Exception:
         return host, []
+
+
+def geolocate(ips):
+    """Geolocate up to 100 IPs per request via ip-api.com batch API."""
+    out = {}
+    for i in range(0, len(ips), 100):
+        chunk = ips[i:i + 100]
+        body = json.dumps([{"query": ip, "fields": GEO_FIELDS} for ip in chunk]).encode()
+        req = urllib.request.Request(
+            GEO_URL, data=body,
+            headers={"Content-Type": "application/json", **HEADERS},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                rows = json.loads(r.read().decode("utf-8", "ignore"))
+        except Exception as e:
+            print(f"  geolocate chunk {i}: ERROR {e}")
+            continue
+        for row in rows:
+            if row.get("status") == "success":
+                out[row["query"]] = {
+                    "country": row.get("country"),
+                    "cc": row.get("countryCode"),
+                    "region": row.get("regionName"),
+                    "city": row.get("city"),
+                    "lat": row.get("lat"),
+                    "lon": row.get("lon"),
+                    "isp": row.get("isp"),
+                }
+    return out
 
 
 def probe(ip_port):
@@ -280,6 +312,26 @@ def main():
         write_lines(os.path.join(nearest_dir, "all.txt"), nearest)
         cf_nearest = [c[3] for c in kept if _is_cf(c, resolved)][:100]
         write_lines(os.path.join(nearest_dir, "cloudflare.txt"), cf_nearest)
+
+        # 8.6 nodes.json: per-config geo + latency, for the nearest-node site
+        unique_ips = sorted({resolved[c[1]][0] for c in kept})
+        print(f"geolocating {len(unique_ips)} unique IPs ...")
+        geo = geolocate(unique_ips)
+        nodes = []
+        for c in kept:
+            ip = resolved[c[1]][0]
+            g = geo.get(ip, {})
+            nodes.append({
+                "scheme": c[0], "host": c[1], "port": c[2], "config": c[3],
+                "source": c[4], "ip": ip,
+                "latency": latency[(ip, c[2])],
+                "country": g.get("country"), "cc": g.get("cc"),
+                "region": g.get("region"), "city": g.get("city"),
+                "lat": g.get("lat"), "lon": g.get("lon"), "isp": g.get("isp"),
+            })
+        with open(os.path.join(nearest_dir, "nodes.json"), "w", encoding="utf-8") as f:
+            json.dump(nodes, f, separators=(",", ":"))
+        print(f"nodes.json: {len(nodes)} nodes, {len(geo)} geolocated")
 
         print(f"done. kept={len(kept)} cloudflare={len(all_cf)} subscriptions={len(chunks)}")
         return 0
