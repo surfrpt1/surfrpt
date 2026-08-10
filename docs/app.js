@@ -1,5 +1,45 @@
 "use strict";
 
+const PW_HASH =
+  "a272294f8a3c1d7588d80e82109805d8d824844dc8c2ade2249ed238d1e5557b";
+const SESSION_KEY = "surfrpt.unlocked";
+
+async function sha256Hex(s) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(buf))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+async function unlock(pw) {
+  return (await sha256Hex(pw)) === PW_HASH;
+}
+
+function init() {
+  if (sessionStorage.getItem(SESSION_KEY) === "1") {
+    document.body.classList.remove("locked");
+    loadNodes();
+    return;
+  }
+  const form = $("login-form");
+  const input = $("login-pw");
+  const msg = $("login-msg");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "";
+    if (await unlock(input.value)) {
+      sessionStorage.setItem(SESSION_KEY, "1");
+      document.body.classList.remove("locked");
+      input.value = "";
+      loadNodes();
+    } else {
+      msg.textContent = "Incorrect password.";
+      input.select();
+    }
+  });
+  input.focus();
+}
+
 const NODES_URL =
   "https://raw.githubusercontent.com/surfrpt1/surfrpt/main/v2ray_configs/nearest/nodes.json";
 const SUB_URL =
@@ -310,4 +350,4 @@ document.addEventListener("click", (e) => {
   });
 });
 
-loadNodes();
+init();

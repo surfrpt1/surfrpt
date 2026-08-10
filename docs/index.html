@@ -7,7 +7,19 @@
 <title>surfrpt · nearest nodes</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="locked">
+<div id="login">
+  <div class="card">
+    <h1>surfrpt</h1>
+    <p class="dim">This site is password-protected.</p>
+    <form id="login-form" autocomplete="off">
+      <input id="login-pw" type="password" placeholder="Password" required>
+      <button type="submit" class="primary">Unlock</button>
+    </form>
+    <p id="login-msg" class="error" role="alert"></p>
+  </div>
+</div>
+
 <header>
   <h1>surfrpt <span class="dim">/</span> nearest nodes</h1>
   <p class="dim">Nodes are ranked by distance from your device location. Latency is from the CI build and only for reference.</p>

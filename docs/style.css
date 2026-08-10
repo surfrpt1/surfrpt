@@ -26,6 +26,32 @@ body {
   background: var(--bg);
   color: var(--fg);
 }
+body.locked header,
+body.locked main,
+body.locked footer { display: none; }
+
+#login {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: var(--bg);
+}
+#login .card {
+  width: 100%;
+  max-width: 340px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / .12);
+}
+#login h1 { margin: 0 0 4px; font-size: 22px; }
+#login form { display: flex; gap: 8px; margin-top: 16px; }
+#login input[type="password"] { flex: 1; }
+#login .error { min-height: 1.2em; margin: 8px 0 0; font-size: 13px; color: #d1242f; }
 header {
   padding: 24px 20px 8px;
   max-width: 1000px;
