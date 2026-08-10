@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>surfrpt · nearest nodes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>surfrpt <span class="dim">/</span> nearest nodes</h1>
+  <p class="dim">Nodes are ranked by distance from your device location. Latency is from the CI build and only for reference.</p>
+</header>
+
+<main>
+  <section class="controls">
+    <div class="row">
+      <button id="refresh" class="primary">⟳ Refresh</button>
+      <button id="use-location" disabled>Use my location</button>
+      <button id="download-sub">Download subscription</button>
+      <button id="copy-top">Copy top-N</button>
+    </div>
+    <div class="row">
+      <label>Top
+        <input id="topn" type="number" min="5" max="500" step="5" value="50">
+      </label>
+      <label>Protocol
+        <select id="filter-proto">
+          <option value="">all</option>
+          <option value="vless">vless</option>
+          <option value="vmess">vmess</option>
+          <option value="trojan">trojan</option>
+          <option value="ss">ss</option>
+        </select>
+      </label>
+      <label><input id="filter-cf" type="checkbox"> Cloudflare only</label>
+      <label class="grow">Search
+        <input id="search" type="text" placeholder="country, city, isp...">
+      </label>
+    </div>
+    <div id="locinfo" class="locinfo dim">No location yet — click Refresh.</div>
+  </section>
+
+  <section>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Distance</th>
+          <th>Latency (CI)</th>
+          <th>Protocol</th>
+          <th>Location</th>
+          <th>Host</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr><td colspan="7" class="dim">Loading nodes…</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="export" class="hidden">
+    <textarea id="export-area" readonly rows="10" spellcheck="false"></textarea>
+  </section>
+</main>
+
+<footer class="dim">Data auto-refreshed by CI. Free endpoints change constantly; use at your own risk.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+:root {
+  --bg: #f7f8fa;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --card: #ffffff;
+  --border: #d1d9e0;
+  --accent: #0969da;
+  --accent-fg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --card: #161b22;
+    --border: #30363d;
+    --accent: #4493f8;
+    --accent-fg: #0d1117;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+header {
+  padding: 24px 20px 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header h1 { margin: 0; font-size: 22px; }
+.dim { color: var(--muted); }
+main { max-width: 1000px; margin: 0 auto; padding: 12px 20px 40px; }
+
+.controls {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.row:last-child { margin-bottom: 0; }
+.grow { flex: 1; min-width: 200px; }
+label { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; }
+input, select {
+  font: inherit;
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+}
+button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-fg);
+  font-weight: 600;
+}
+button:disabled { opacity: .5; cursor: not-allowed; }
+.locinfo { font-size: 13px; margin-top: 10px; }
+.locinfo.error { color: #d1242f; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+tbody tr:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+td .code { font-family: ui-monospace, "Cascadia Code", Consolas, monospace; font-size: 13px; }
+
+#export { margin-top: 16px; }
+#export textarea {
+  width: 100%;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 12px;
+  background: var(--card);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+}
+.hidden { display: none; }
+footer { max-width: 1000px; margin: 0 auto; padding: 0 20px 32px; font-size: 13px; }
