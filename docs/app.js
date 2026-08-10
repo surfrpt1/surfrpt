@@ -11,6 +11,7 @@ const state = {
   topN: 50,
   proto: "",
   cfOnly: false,
+  dedup: false,
   query: "",
 };
 
@@ -59,7 +60,7 @@ function filtered() {
         .includes(q)
     );
   }
-  return list
+  const sorted = list
     .map((n) => ({ n, d: distance(n) }))
     .sort((x, y) => {
       if (x.d == null && y.d == null) return x.n.latency - y.n.latency;
@@ -67,6 +68,19 @@ function filtered() {
       if (y.d == null) return -1;
       return x.d - y.d;
     });
+
+  if (state.dedup) {
+    const seen = new Set();
+    const out = [];
+    for (const item of sorted) {
+      const key = `${item.n.scheme}|${item.n.host}|${item.n.port}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(item);
+    }
+    return out;
+  }
+  return sorted;
 }
 
 function locLabel() {
@@ -98,7 +112,6 @@ function render() {
   } else {
     locInfo.textContent = "No device location — showing CI latency order. Tap Refresh to rank by your location.";
   }
-
   tbody.innerHTML = sorted
     .map(({ n, d }, i) => {
       const dStr = d == null ? "—" : d < 1 ? `${(d * 1000).toFixed(0)} m` : `${d.toFixed(0)} km`;
@@ -271,6 +284,14 @@ $("filter-proto").addEventListener("change", (e) => {
 });
 $("filter-cf").addEventListener("change", (e) => {
   state.cfOnly = e.target.checked;
+  render();
+});
+$("dedup").addEventListener("click", (e) => {
+  state.dedup = !state.dedup;
+  const btn = e.currentTarget;
+  btn.textContent = state.dedup ? "Remove duplicates: on" : "Remove duplicates: off";
+  btn.setAttribute("aria-pressed", String(state.dedup));
+  btn.classList.toggle("active", state.dedup);
   render();
 });
 $("search").addEventListener("input", (e) => {

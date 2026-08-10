@@ -64,6 +64,11 @@ button {
   cursor: pointer;
 }
 button:hover { border-color: var(--accent); }
+button.active {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  border-color: var(--accent);
+  color: var(--accent);
+}
 button.primary {
   background: var(--accent);
   border-color: var(--accent);
