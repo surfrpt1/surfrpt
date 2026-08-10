@@ -1,6 +1,7 @@
 "use strict";
 
-const NODES_URL = "v2ray_configs/nearest/nodes.json";
+const NODES_URL =
+  "https://raw.githubusercontent.com/surfrpt1/surfrpt/main/v2ray_configs/nearest/nodes.json";
 
 const state = {
   nodes: [],
@@ -104,7 +105,7 @@ function render() {
 
 async function loadNodes() {
   try {
-    const res = await fetch(NODES_URL, { cache: "no-store" });
+    const res = await fetch(`${NODES_URL}?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     state.nodes = await res.json();
     $("locinfo").textContent = `Loaded ${state.nodes.length} nodes.`;
