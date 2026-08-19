@@ -1,0 +1,4 @@
+#profile-title: base64:U1VCLTk0
+#profile-update-interval: 1
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@138.124.62.92:13868?security=reality&encryption=none&pbk=W24D31y_1ZaASX1bq3d85DQaQd_3NcJQCvg1wmCn-Uo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.ea.com&sid=e852dc#[🇪🇸]t.me/ConfigV2RayNG
+ss://YWVzLTEyOC1nY206eG82azg0bDdiMDBuMmhKcA@23.185.200.135:57841#[🏁]t.me/ConfigV2RayNG
