@@ -1,5 +1,5 @@
 https://telegraph.rayan.dpdns.org/persian
-http://telegraph.rayan-config.workers.dev/translate
 https://telegraph.rayan.dpdns.org/translate
+http://telegraph.rayan-config.workers.dev/translate
 https://telegraph.rayan-config.workers.dev/translate
 https://telegraph.rayan-config.workers.dev/persian
