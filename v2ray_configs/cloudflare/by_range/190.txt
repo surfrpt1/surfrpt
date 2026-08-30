@@ -1,8 +1,6 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@190.93.244.138:2096?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=/#کانال
-vless://beeedc2e-aaa6-4a60-b771-6daec05746d9@190.93.246.241:443?path=49651/scenic_photo&security=tls&encryption=none&alpn=http/1.1&host=backup.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com&fp=chrome&type=ws&sni=backup.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com#@Hope_Net-join-us-on-Telegram
-vless://f54c1c56-d3b2-41b3-9974-78bdd8807939@190.93.247.155:8880?path=/%40LIGHTNING6&security=none&encryption=none&host=liV2raya.%E5%96%84%E8%89%AF%E7%9A%84%E9%97%AA%E7%94%B5.monster&type=ws#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20VLESS%20%7C%20%40nepo_v2ray%20%231%20%5Bfast%5D
 trojan://bpb-trojan@190.93.244.202:443?path=/tr?ed&security=tls&host=fcspring.ggff.net&type=ws&sni=fcspring.ggff.net#🩵+@Azarakhsh_Proxy+🩷
 vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@190.93.245.208:80?security=none&type=ws&host=us3.rtacg.com&path=/#@Hope_Net-join-us-on-Telegram
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@190.93.245.208:80?security=none&type=ws&host=us3.rtacg.com&path=/#کانال
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@190.93.245.208:80?security=none&type=ws&host=us3.rtacg.com&path=/#🇨🇷155359
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@190.93.245.208:80?security=none&type=ws&host=us3.rtacg.com&path=/#🚀@VPNine1
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@190.93.244.138:2096?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=/#کانال
+vless://6fa72141-76ea-4f30-af46-1cd927159f05@190.93.246.137:2082?security=none&type=ws&host=new.server.列列男事的事列上赛男78.gamermecfz.ir&path=/?ed#@Hope_Net-join-us-on-Telegram
+vless://f54c1c56-d3b2-41b3-9974-78bdd8807939@190.93.247.155:8880?path=/%40LIGHTNING6&security=none&encryption=none&host=liV2raya.%E5%96%84%E8%89%AF%E7%9A%84%E9%97%AA%E7%94%B5.monster&type=ws#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20VLESS%20%7C%20%40nepo_v2ray%20%231%20%5Bfast%5D
+trojan://NISHIKUITAN111@190.93.247.7:443?type=tcp&security=tls&allowInsecure=1#🇨🇷

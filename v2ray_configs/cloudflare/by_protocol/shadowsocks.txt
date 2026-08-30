@@ -1,4 +1,2 @@
-ss://24a4aa9b-b341-4717-9d4a-00d74c2b84e0@www.speedtest.net:2096?path=/&security=tls&alpn=h3,h2&encryption=none&host=balancer-1.access.name.ng&fp=chrome&type=ws&sni=balancer-1.access.name.ng#[026458]
-ss://90c7ad5e-cd15-4314-b39b-aeabd397d592@www.visa.com.sg:2087?path=/?ed=#/?Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=tls&encryption=none&host=vl.hongkong6.qzz.io&fp=chrome&type=ws&sni=vl.hongkong6.qzz.io#[026468]
+ss://739b7052-1e58-444d-b068-6cdbbe487663@188.114.97.3:443?path=/D7UhD7IgkjUTf9Hl?ed=2560&security=tls&encryption=none&host=DFb32Af2.panLO-eSCObaR0099269.Pages.deV&fp=chrome&type=ws&sni=DFb32Af2.panLO-eSCObaR0099269.Pages.deV#[027954]
 ss://Y2hhY2hhMjAtcG9seTEzMDU6d3d3LnYybm9kZXMuY29t@www.v2nodes.com:443#%5BERROR%5D%20Please%20get%20new%20subscription%20link
-ss://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=/Telegram@V2ray_Alpha/?ed=2560&security=&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#[026462]
