@@ -1,2 +1,1 @@
-ss://739b7052-1e58-444d-b068-6cdbbe487663@188.114.97.3:443?path=/D7UhD7IgkjUTf9Hl?ed=2560&security=tls&encryption=none&host=DFb32Af2.panLO-eSCObaR0099269.Pages.deV&fp=chrome&type=ws&sni=DFb32Af2.panLO-eSCObaR0099269.Pages.deV#[027954]
-ss://Y2hhY2hhMjAtcG9seTEzMDU6d3d3LnYybm9kZXMuY29t@www.v2nodes.com:443#%5BERROR%5D%20Please%20get%20new%20subscription%20link
+ss://7c3e7eb3-289a-4664-b783-e459713aed4f@cdn.devmixa.ir:443?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&host=english.havray2025.ir&fp=chrome&type=ws&sni=english.havray2025.ir#[029681]
